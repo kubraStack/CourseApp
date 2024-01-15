@@ -1,0 +1,63 @@
+.list-group-item.active{
+    background-color: black;
+    border-color: black !important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.nav-link:hover{
+    color:darkcyan !important;
+}
+
+.list-group-item:hover{
+    color: darkcyan !important;
+}
+
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+
+@media screen and (max-width: 993px) {
+    .searchInpt{
+        width: 200px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-3{
+        width: 550px;
+    }
+    .col-3 .list-group{
+        text-align: center;
+    }
+
+    .card .col-4 , .col-8{
+       width: 100%;
+    }
+   .card{
+       border: 0.11px  solid rgb(211, 205, 205);
+       padding: 5px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card .col-4 img{
+       height: 100%;
+    }
+}
